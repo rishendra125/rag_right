@@ -6,6 +6,8 @@ Most PMs building RAG products make architecture decisions based on what their e
 
 The output is not a generic "use hybrid retrieval" answer. It is a specific recommendation shaped by your answers: whether your content is a live data feed or a static policy document changes the chunking strategy. Whether your users ask ambiguous multi-intent questions or exact SKU lookups changes the retrieval type and reranker. Whether a wrong answer causes a bad experience or a legal liability changes the prompt requirements. RAGRight makes those distinctions explicit.
 
+![RAGRight in action](Working%20Test.jpeg)
+
 ---
 
 ## Two Modes
@@ -34,6 +36,12 @@ No input needed. A pre-built live e-commerce catalogue scenario auto-plays throu
 | Q7a | (branch) Give me one real example query | Vocabulary vs intent mismatch |
 
 Branch follow-ups fire automatically when answers trigger them.
+
+---
+
+## Decision Flow
+
+![RAGRight Decision Flow](mermaid-diagram_Ragright.png)
 
 ---
 
